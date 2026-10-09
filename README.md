@@ -44,8 +44,8 @@ Escolha uma prática ou dado de teste relevante e explique com suas próprias pa
 
 ## Respostas
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: https://github.com/fastapi/fastapi
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: https://andrehora.github.io/testminer/
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação: O FastAPI possui uma estrutura de testes bem organizada. A maior parte dos arquivos relacionados a testes está concentrada na pasta tests, mas também existem testes ligados à documentação, scripts e integração contínua. Além disso, o projeto utiliza o pytest junto com ferramentas como pytest-cov, pytest-timeout e pytest-xdist. Isso mostra que os testes não são usados apenas para verificar se o código funciona, mas também para acompanhar cobertura, definir limites de tempo para a execução dos testes e executar testes em paralelo. Achei interessante porque, em um projeto grande como o FastAPI, somente ter muitos testes não seria suficiente; também é necessário ter ferramentas para conseguir executar e manter essa quantidade de testes de forma prática.
